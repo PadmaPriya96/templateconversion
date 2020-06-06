@@ -1,0 +1,6 @@
+<app-logincomponent (loginVal)="allowLogin($event)" *ngIf="!homepage"></app-logincomponent>
+<div class="container" *ngIf="homepage">
+    <app-headercomponent></app-headercomponent>
+    <app-maincomponent></app-maincomponent>
+    <app-footercomponent></app-footercomponent>
+</div>

@@ -1,0 +1,76 @@
+.header{
+    background: linear-gradient(to right, #082cb6,#2d92fa);
+    position: relative;
+    padding-bottom: 127px;
+    .positionimg{
+        position: absolute;
+    bottom: 39px;
+    left: 47%;
+    background: #134aca;
+    padding: 10px;
+    border-radius: 30px;
+    width: 42px;
+    height: 42px;
+    z-index: 1;
+    box-shadow:0 2px 10px 4px rgba(83, 76, 76, 0.14), 1px 0px 3px -2px rgb(17, 68, 198), 0 1px 12px 0 rgb(16, 65, 196);
+    img{
+        width: 17px;
+        top: 8px;
+        position: absolute;
+        left: 13px;
+    }
+    }
+    .navbar-nav{
+        a{
+            font-size: 13px;
+            color:#fff;
+        }
+    }
+    .flex{
+        div{
+            flex-grow: 1;
+            flex-shrink: 1;
+            flex-basis: 0;
+            &.content{
+                h1{
+                    font-size: 29px;
+                    color: #fff;
+                    line-height: 35px;
+                }
+                p{
+                    font-size: 15px;
+                    line-height: 21px;
+                    color: #fff;
+                    opacity: 0.8;
+                }
+                button{
+                    width: 25%;
+    padding: 3px;
+    font-size: 15px;
+                }
+            }
+        }
+    }
+    
+}
+.custom-shape-divider-bottom-1591433166 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 160%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1591433166 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 152px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1591433166 .shape-fill {
+    fill: #FFFFFF;
+}
